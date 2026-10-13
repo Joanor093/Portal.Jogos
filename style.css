@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'mine'; 
-  src: url('https://githubusercontent.com') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .LOGO {
     text-align: center;
 }
