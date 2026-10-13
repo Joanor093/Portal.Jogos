@@ -1,10 +1,11 @@
+
 .LOGO {
     text-align: center;
 }
 
 .bloco_jogos {
     list-style-type: none;
-    display: flex;         
+    display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -12,16 +13,24 @@
 .bloco {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("https://github.com/Joanor093/imagens/blob/main/RGB.gif?raw=true");
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://github.com/Joanor093/imagens/blob/main/RGB.gif?raw=true");
+
+    background-size: cover;
+    background-position: center;
+
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    width: 300px;  
+    width: 300px;
+    box-sizing: border-box;
 }
 
 .fotos {
     height: 160px;
-    width: 300px;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     border-radius: 4px;
