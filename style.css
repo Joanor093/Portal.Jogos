@@ -47,4 +47,16 @@ a {
     padding: 0.5em;
     top: 10px;
     border: 3px #000000 solid;
+    width: fit-content;
+    margin: 0 auto;
+    transform: scale(1);
+    transition: all 1s;
 }
+
+a:hover {
+    transform: scale(1.13);
+    transition: all 1s;
+    background-color: #ffffff94;
+}
+
+
