@@ -30,7 +30,7 @@
 
 .fotos {
     height: 160px;
-    width: 100%;
+    width: 300;
     object-fit: cover;
     object-position: center;
     border-radius: 4px;
