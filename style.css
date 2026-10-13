@@ -6,14 +6,17 @@
     list-style-type: none;
     display: flex;         
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .bloco {
+    display: flex;
     flex-direction: column;
-    background-color: white;
+    background-image: url(https://github.com/Joanor093/imagens/blob/main/RGB.gif?raw=true);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
+    width: 300px;  
 }
 
 button {
@@ -23,4 +26,7 @@ button {
 .fotos {
     height: 160px;
     width: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
 }
