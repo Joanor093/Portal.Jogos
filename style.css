@@ -12,7 +12,7 @@
 .bloco {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/Joanor093/imagens/blob/main/RGB.gif?raw=true");
+    background-image: url("https://github.com/Joanor093/imagens/blob/main/RGB.gif?raw=true");
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
