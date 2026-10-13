@@ -9,6 +9,7 @@
 }
 
 .bloco {
+    flex-direction: column;
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
