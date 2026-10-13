@@ -7,3 +7,11 @@
     display: flex;         
     gap: 20px;
 }
+
+.bloco {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;    /* Arredonda as bordas */
+            padding: 20px;
+            flex: 1;               /* Faz todos os cards terem o mesmo tamanho */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve no fundo */
