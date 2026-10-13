@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'mine'; 
+  src: url('Minecraft.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .LOGO {
     text-align: center;
@@ -37,8 +43,12 @@
 }
 
 a {
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 1.05em;
     text-decoration: none;
     background-color: white;
     border-radius: 2em;
-    padding: 1em;
+    padding: 0.5em;
 }
