@@ -6,6 +6,10 @@
     display: none;
 }
 
+.jogos_3D {
+    display: none;
+}
+
 .bloco_jogos {
     list-style-type: none;
     display: flex;
